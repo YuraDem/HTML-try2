@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation</title>
+    <link rel="icon" type="image/x-icon" href="./img/1. header/Logo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.17/jquery.bxslider.min.css" integrity="sha512-UBY4KATrDAEKgEEU+RAfY4yWrK0ah43NGwNr5o/xmncxsT+rv8jp7MI3a00I0Ep3NbAx05U5kw3DvyNCoz+Wcw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/carousel.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container flex">
+        <div class="header__logo flex">
+          <img src="./img/1. header/Logo.svg" alt="logo" />
+          <div class="header__logo-wrapper">
+            <h6 class="header__logo-title">Foundation</h6>
+            <p class="header__logo-text">Startup landing template</p>
+          </div>
+        </div>
+        <div class="menu">
+          <input type="checkbox" class="menu-checkbox" />
+          <div class="menu-items-wrapper">
+            <div class="menu-item"></div>
+            <div class="menu-item"></div>
+            <div class="menu-item"></div>
+          </div>
+          <nav class="header__nav flex">
+            <ul class="header__nav-list flex">
+              <li class="header__nav-item">
+                <a id="home-link" class="header__nav-link" href="#">Home</a>
+              </li>
+              <li class="header__nav-item">
+                <a id="stories-link" class="header__nav-link" href="#">Stories</a>
+              </li>
+            </ul>
+            <button class="button button-started">Get Started</button>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="main">
+      <div class="container">
+        <div class="main__content">
+          <h3 class="main__title">Build stunning websites & apps.</h3>
+          <p class="main__text">
+            Create live segments and target the right people for messages based
+            on their behaviors.
+          </p>
+          <div class="main__buttons-wrapper flex">
+            <button class="button button-started">Get Started</button>
+            <button class="button button-learn" id="modal">Learn More</button>
+          </div>
+        </div>
+        <div class="main__container-img">
+          <img src="./img/2. main/Big-Man.png" alt="Big-Man" />
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="container flex flex__column">
+        <div class="about__description-wrapper">
+          <h5 class="about__description-title">What is it about?</h5>
+          <p class="about__description-text">
+            Building a website for a startup that looks amazing is not a rocket
+            science anymore.
+          </p>
+        </div>
+        <div class="about__description-wrapper">
+          <h5 class="about__description-title">Who is it for?</h5>
+          <p class="about__description-text">
+            Startups, small companies and teams, entrepreneurs and web
+            developers.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="brands container flex">
+      <div class="brands__img-container">
+        <img
+          class="brands__img"
+          src="./img/4. brands/NYT.png"
+          alt="The New York Times"
+        />
+      </div>
+      <div class="brands__img-container">
+        <img
+          class="brands__img"
+          src="./img/4. brands/Forbes.png"
+          alt="Forbes"
+        />
+      </div>
+      <div class="brands__img-container">
+        <img class="brands__img" src="./img/4. brands/Apple.png" alt="Apple" />
+      </div>
+      <div class="brands__img-container">
+        <img
+          class="brands__img"
+          src="./img/4. brands/Mashable.png"
+          alt="Mashable"
+        />
+      </div>
+      <div class="brands__img-container">
+        <img class="brands__img" src="./img/4. brands/WSJ.png" alt="WSJ" />
+      </div>
+      <div class="brands__img-container">
+        <img
+          class="brands__img"
+          src="./img/4. brands/Google.png"
+          alt="Google"
+        />
+      </div>
+    </section>
+    <section class="features">
+      <div class="container">
+        <div class="features__info-container">
+          <h5 class="info__subtitle info__subtitle--green">
+            Features
+          </h5>
+          <h3 class="info__title info__title--margin-features">
+            Easily find leads and customers
+          </h3>
+          <p class="info__text info__text--margin-features">
+            Send one-off and automated email, push, and in-app messages to people. Create better stories.
+          </p>
+        </div>
+        <div class="features__attraction-wrapper">
+          <div class="features__attraction-card">
+            <div class="features__attraction-card-info flex">
+              <div class="features__attraction-card-img">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 0C5.376 0 0 5.376 0 12C0 18.624 5.376 24 12 24C18.624 24 24 18.624 24 12C24 5.376 18.624 0 12 0ZM12 10.68C11.268 10.68 10.68 11.268 10.68 12C10.68 12.732 11.268 13.32 12 13.32C12.732 13.32 13.32 12.732 13.32 12C13.32 11.268 12.732 10.68 12 10.68ZM4.8 19.2L14.628 14.628L19.2 4.8L9.372 9.372L4.8 19.2Z" fill="#2B292D"/>
+                  </svg>
+              </div>
+              <h4 class="features__attraction-card-title">
+                Acquire new customers
+              </h4>
+            </div>
+            <p class="features__attraction-text">
+              Everything you need to start building – including open-source code, documentation.
+            </p>
+          </div>
+          <div class="features__attraction-card">
+            <div class="features__attraction-card-info flex">
+              <div class="features__attraction-card-img">
+                <svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M0 5.95238L11.5 0L23 5.95238V8.33333H0V5.95238ZM2.42105 10.7143V19.0476H6.05263V10.7143H2.42105ZM9.68421 10.7143V19.0476H13.3158V10.7143H9.68421ZM23 21.4286V25H0V21.4286H23ZM16.9474 10.7143V19.0476H20.5789V10.7143H16.9474Z" fill="#2B292D"/>
+                  </svg>
+              </div>
+              <h4 class="features__attraction-card-title">
+                Engage users
+              </h4>
+            </div>
+            <p class="features__attraction-text">
+              Everything you need to start building – including open-source code, documentation.
+            </p>
+          </div>
+          <div class="features__attraction-card">
+            <div class="features__attraction-card-info flex">
+              <div class="features__attraction-card-img">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M19.5556 0H2.44444C1.1 0 0 1.1 0 2.44444V11C0 12.3444 1.1 13.4444 2.44444 13.4444H19.5556C20.9 13.4444 22 12.3444 22 11V2.44444C22 1.1 20.9 0 19.5556 0ZM19.5556 7.33333H14.6667C14.6667 9.31333 12.98 11 11 11C9.02 11 7.33333 9.31333 7.33333 7.33333H2.44444V2.44444H19.5556V7.33333ZM22 15.8889H14.6667C14.6667 17.9178 13.0289 19.5556 11 19.5556C8.97111 19.5556 7.33333 17.9178 7.33333 15.8889H0V19.5556C0 20.9 1.1 22 2.44444 22H19.5556C20.9 22 22 20.9 22 19.5556V15.8889Z" fill="#2B292D"/>
+                  </svg>
+              </div>
+              <h4 class="features__attraction-card-title">
+                Develop across platforms
+              </h4>
+            </div>
+            <p class="features__attraction-text">
+              Everything you need to start building – including open-source code, documentation.
+            </p>
+          </div>
+        </div>
+        <div class="features__img-man">
+          <img src="./img/5. features/Man.svg" alt="Man">  
+        </div>
+        <div class="features__img-inspace">
+          <img src="./img/5. features/InSpace.png" alt="InSpace">
+        </div>
+      </div>
+    </section>
+    <section class="inbox">
+      <div class="container flex flex__column-revers">
+        <div class="container-img">
+          <img src="./img/6. inbox/Inbox.svg" alt="Inbox" />
+        </div>
+        <div class="info">
+          <h5 class="info__subtitle info__subtitle--orange">Team Inbox</h5>
+          <h3 class="info__title info__title--margin-inbox">
+            Manage conversations
+          </h3>
+          <p class="info__text info__text--margin-inbox">
+            One place to manage and respond to all conversations with leads and
+            users. Receive messages from leads.
+          </p>
+          <div class="inbox__response">
+            <p class="inbox__response-text">
+              “Great widgets. Great selection. Great design and
+              <span class="inbox__response-text--bold">easy to implement</span>.
+              Definitely a huge time saver for a web developer!”
+            </p>
+            <div class="inbox__response-user flex flex__start">
+              <img src="./img/6. inbox/Avatar.svg" alt="Avatar" />
+              <div class="inbox__response-user-info">
+                <h6 class="inbox__response-user-name">Viella Malkovich</h6>
+                <p class="inbox__response-user-position">
+                  Creative Director at Johnson
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="communicate">
+      <div class="container">
+        <div class="info__wrapper flex flex__column">
+          <div class="info communicate__info">
+            <h5 class="info__subtitle info__subtitle--blue">
+              Communicate Better
+            </h5>
+            <h3 class="info__title info__title--margin-communicate">
+              Built for busy small teams
+            </h3>
+            <p class="info__text info__text--margin-communicate">
+              Three products that can be used independently or combined together
+              for your company’s needs.
+            </p>
+            <button class="button button-started">Get Started</button>
+          </div>
+          <div class="communicate__container-img">
+            <img src="./img/7. communicate/Phone.png" alt="Phone" />
+          </div>
+        </div>
+        <div class="flex flex__column">
+          <div class="communicate__card-wrapper">
+            <p class="communicate__card-text">
+              <span class="communicate__card-text-span">Subscriptions.</span>
+              Foundation works with the tools and services you already use every
+              day.
+            </p>
+            <p class="communicate__card-link-wrapper">
+              <a href="#" class="communicate__card-link"
+                >Learn more about subscriptions</a
+              >
+            </p>
+          </div>
+          <div class="communicate__card-wrapper">
+            <p class="communicate__card-text">
+              <span class="communicate__card-text-span">Flexible Hours.</span>
+              Get started with our simple snippet of JavaScript or easy to
+              install SDKs for iOS and Android.
+            </p>
+            <p class="communicate__card-link-wrapper">
+              <a href="#" class="communicate__card-link"
+                >Get more info about hours</a
+              >
+            </p>
+          </div>
+          <div class="communicate__card-wrapper">
+            <p class="communicate__card-text">
+              <span class="communicate__card-text-span"
+                >Fast Communication.</span
+              >
+              We offer measures like 2FA and SSO to ensure the safety of your
+              data.
+            </p>
+            <p class="communicate__card-link-wrapper">
+              <a href="#" class="communicate__card-link"
+                >Communication guidelines</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="engagement">
+      <div class="container">
+        <h5 class="engagement__sub-title">Engage Visitors</h5>
+        <h3 class="engagement__title">Understand your audience</h3>
+        <p class="engagement__text">
+          Early stage company? Eligible applicants get all of our products for
+          just $49 a month.
+        </p>
+        <div class="engagement__button-wrapper">
+          <button class="button button-started">Get Started</button>
+          <button class="button button-learn">Learn More</button>
+        </div>
+        <div class="engagement__grid">
+          <div class="engagement__info">
+            <img src="./img/8. engagement/Face.png" alt="Face" />
+            <p class="engagement__info-text">Developers</p>
+          </div>
+          <div class="engagement__info">
+            <img src="./img/8. engagement/TV.png" alt="TV" />
+            <p class="engagement__info-text">Entertainment</p>
+          </div>
+          <div class="engagement__info">
+            <img src="./img/8. engagement/Human.png" alt="Human" />
+            <p class="engagement__info-text">Athletes</p>
+          </div>
+          <div class="engagement__info">
+            <img src="./img/8. engagement/Lamp.png" alt="Lamp" />
+            <p class="engagement__info-text">Creators</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="brands container flex">
+      <div class="brands__img-container">
+        <img
+          class="brands__img"
+          src="./img/4. brands/NYT.png"
+          alt="The New York Times"
+        />
+      </div>
+      <div class="brands__img-container">
+        <img
+          class="brands__img"
+          src="./img/4. brands/Forbes.png"
+          alt="Forbes"
+        />
+      </div>
+      <div class="brands__img-container">
+        <img class="brands__img" src="./img/4. brands/Apple.png" alt="Apple" />
+      </div>
+      <div class="brands__img-container">
+        <img
+          class="brands__img"
+          src="./img/4. brands/Mashable.png"
+          alt="Mashable"
+        />
+      </div>
+      <div class="brands__img-container">
+        <img class="brands__img" src="./img/4. brands/WSJ.png" alt="WSJ" />
+      </div>
+      <div class="brands__img-container">
+        <img
+          class="brands__img"
+          src="./img/4. brands/Google.png"
+          alt="Google"
+        />
+      </div>
+    </section>
+    <section class="response">
+      <div class="container">
+        <div class="carousel">
+          <div class="carousel-person">
+            <h4 class="carousel-title">
+              Trusted by the world’s most innovative businesses – big and small
+            </h4>
+            <p class="carousel-text">
+              “Comprehensive set of startup tools for all imaginable entrepreneurial needs. Create landing pages, send emails, find freelancers. Perfect for sales, marketing, and support”
+            </p>
+            <div class="about-person">
+              <h6 class="person-name">
+                Viella Malkovich
+              </h6>
+              <p class="person-position">
+                Creative Director at Johnson
+              </p>
+            </div>
+          </div>
+          <div class="carousel-person">
+            <h4 class="carousel-title">
+              Everybody in this company can help you!
+            </h4>
+            <p class="carousel-text">
+              “You must get new experience with Boris it's awesome specialist. Our manager does his job great. Perfect for sales, marketing, and support”
+            </p>
+            <div class="about-person">
+              <h6 class="person-name">
+                Boris Johnson
+              </h6>
+              <p class="person-position">
+                Creative Manager
+              </p>
+            </div>
+          </div>
+          <div class="carousel-person">
+            <h4 class="carousel-title">
+              You want! You must! You can!
+            </h4>
+            <p class="carousel-text">
+              “Everybody trust him. He can teach you awesome things. He wants to try learn you something, he's the best programmer in our company. Let's start and have hun!!”
+            </p>  
+            <div class="about-person">
+              <h6 class="person-name">
+                Michael Jordan
+              </h6>
+              <p class="person-position">
+                Senior Programmer
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="response__img-container">
+          <img src="./img/10. response/baloon.png" alt="baloon">
+        </div>
+      </div>
+    </section>
+    <section id="home" class="company">
+      <div class="container">
+        <div class="company__info-container">
+          <h3 class="company__title">
+            We’re hiring
+          </h3>
+          <p class="company__text">
+            We’re a team of lifelong learners. We’re equal parts left and right brained.
+          </p>
+          <button class="button button-started company__button">
+            More about Company
+          </button>
+        </div>
+        <div class="company__position-wrapper">
+          <div class="company__position">
+            <div class="company__position-info flex">
+              <div class="company__position-container flex">
+                <h5 class="company__position-subtitle">
+                  Front-End Developer
+                </h5>
+                <p class="company__position-locate">
+                  Los Angeles / Remote
+                </p>
+              </div>
+              <p class="company__position-arrow">
+                >
+              </p>
+            </div>
+            <p class="company__position-text">
+              Everything you need to start building – including open-source code, documentation.
+            </p>
+          </div>
+          <div class="company__position">
+            <div class="company__position-info flex">
+              <div class="company__position-container flex">
+                <h5 class="company__position-subtitle">
+                  Community Manager
+                </h5>
+                <p class="company__position-locate">
+                  New York / Full-Time
+                </p>
+              </div>
+              <p class="company__position-arrow">
+                >
+              </p>
+            </div>
+            <p class="company__position-text">
+              Everything you need to start building – including open-source code, documentation.
+            </p>
+          </div>
+          <div class="company__position">
+            <div class="company__position-info flex">
+              <div class="company__position-container flex">
+                <h5 class="company__position-subtitle">
+                  UX/UI Designer
+                </h5>
+                <p class="company__position-locate">
+                  New York / Full-Time
+                </p>
+              </div>
+              <p class="company__position-arrow">
+                >
+              </p>
+            </div>
+            <p class="company__position-text">
+              Everything you need to start building – including open-source code, documentation.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="stories" class="surfaces">
+      <div class="container">
+        <h3 class="surfaces__title">All Surfaces Covered</h3>
+        <p class="surfaces__text">
+          IOON kills bacteria on your hands, food, tables, laptops, you name it
+        </p>
+        <div class="surfaces__grid">
+          <div class="surfaces__grid-item">
+            <img src="./img/12. surfaces/Apple.png" alt="Apple" />
+          </div>
+          <div class="surfaces__grid-item">
+            <img src="./img/12. surfaces/Bus.png" alt="Bus" />
+          </div>
+          <div class="surfaces__grid-item">
+            <img src="./img/12. surfaces/Man.png" alt="Man" />
+          </div>
+          <div class="surfaces__grid-item">
+            <img src="./img/12. surfaces/Hand.png" alt="Hand" />
+          </div>
+          <div class="surfaces__grid-item">
+            <img src="./img/12. surfaces/Phone.png" alt="Phone" />
+          </div>
+          <div class="surfaces__grid-item">
+            <img src="./img/12. surfaces/Baby.png" alt="Baby" />
+          </div>
+          <div class="surfaces__grid-item">
+            <img src="./img/12. surfaces/Dog.png" alt="Dog" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="trial">
+      <div class="container flex flex__column-revers">
+        <div class="trial__img-container">
+          <img src="./img/13. trial/Dog-in-window.svg" alt="Dog in window" />
+        </div>
+        <div class="trial__info-container">
+          <h3 class="trial__title">Start your free trial.</h3>
+          <p class="trial__text">
+            Get notified about company updates, news and blog posts. We hate
+            spam.
+          </p>
+          <form class="trial__form flex">
+            <input
+              type="email"
+              class="trial__input"
+              placeholder="Enter your email"
+            />
+            <button class="button button-started trial__button">
+              Get Started
+            </button>
+          </form>
+          <div class="trial__checkbox-container">
+            <label class="trial__label flex">
+              <input type="checkbox" class="trial__checkbox" />
+              <span class="trial__fake-checkbox"></span>
+              <p class="trial__checkbox-text">
+                Free 14-day trial · Easy setup · Cancel any time. Check out
+                <a href="#">Terms of Use</a>.
+              </p>
+            </label>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__info-wrapper flex">
+          <div class="info-wrapper">
+            <div class="logo-wrapper flex">
+              <div class="footer__container-img">
+                <img src="./img/14. footer/Logo.svg" alt="Logo" />
+              </div>
+              <div class="text-wrapper">
+                <h5 class="logo-title">Foundation</h5>
+                <p class="logo-text">Startup landing template</p>
+              </div>
+            </div>
+            <p class="footer__text">
+              Foundation is a website template for startups and small teams. It
+              helps to build a website in no time.
+            </p>
+            <div class="footer__apps">
+              <img src="./img/14. footer/AppStore.png" alt="AppStore" />
+              <img src="./img/14. footer/GooglePlay.png" alt="GooglePlay" />
+            </div>
+          </div>
+          <div class="footer__list-wrapper flex">
+            <ul class="footer__list">
+              <h5 class="footer__list-title">Product</h5>
+              <li class="footer__list-item">Acquire Users</li>
+              <li class="footer__list-item">Content Marketing</li>
+              <li class="footer__list-item">Website Templates</li>
+              <li class="footer__list-item">Customer Management</li>
+              <li class="footer__list-item">Virtual Inbox</li>
+            </ul>
+            <ul class="footer__list">
+              <h5 class="footer__list-title">Company</h5>
+              <li class="footer__list-item">About Foundation</li>
+              <li class="footer__list-item">Brand Guidelines</li>
+              <li class="footer__list-item">Press Kit</li>
+              <li class="footer__list-item">Support</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__socials flex">
+          <div class="footer__rules-wrapper flex">
+            <p class="footer__rule">
+              <a class="footer__rule-link" href="#">Terms</a>
+            </p>
+            <p class="footer__rule">
+              <a class="footer__rule-link" href="#">Privacy</a>
+            </p>
+            <p class="footer__rule">
+              <a class="footer__rule-link" href="#">License</a>
+            </p>
+          </div>
+          <div class="footer__icons-wrapper">
+            <img src="./img/14. footer/Twitter.svg" alt="Twitter" />
+            <img src="./img/14. footer/FaceBook.svg" alt="FaceBook" />
+            <img src="./img/14. footer/LinkedIn.svg" alt="LinkedIn" />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal-overlay">
+      <div class="modal">
+        <h4 class="modal__title">Build stunning websites & apps.</h4>
+        <p class="modal__text">Create live segments and target the right people for messages based on their behaviors.</p>
+        <div class="close">X</div>
+      </div>
+    </div>
+
+    <div id="up">
+      <span style="display: inline-block;">></span>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.17/jquery.bxslider.min.js" integrity="sha512-LaBO0tZh1+6Ebk+EnHt/WsGM0UnmkCXfQ1rfhGmpa5MXUdslNuSSELBRcteHKz4k4ny+Op10Ax2fPoTNq+VcUg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script/bxslider.js"></script>
+    <script src="./script/script.js"></script>
+    <script src="./script/modal.js"></script>
+    <script src="./script/upButton.js"></script>
+  </body>
+</html>
